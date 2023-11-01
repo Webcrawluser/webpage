@@ -71,7 +71,7 @@
       rgba(7, 7, 7, 0.842),
       rgba(8, 8, 8, 0.582)
     ),
-    url("../img/bg_img2.jpg");
+    url("img/bg_img2.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
