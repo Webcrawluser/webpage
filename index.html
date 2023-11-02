@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome To My Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body onload="loader()">
+
+  <div id="loading"></div>
+  <!-- Home Section Start Here -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">Web<span>crew</span></a>
+      </div>
+
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div id="home" class="home">
+      <div class="bodycontent">
+        <div class="centertext">
+          <div class="text1">Hello, my name is</div>
+          <div class="text2">Manglesh Kumar</div>
+          <div class="text3">And I'm Designer & <span id="change"></span></div>
+          <div>
+            <p id="test"></p>
+          </div>
+        </div>
+
+        <div class="homeimg">
+          <img src="img/img1.png" alt="home_img" />
+        </div>
+      </div>
+  </header>
+  <div class="custom-shape-divider-bottom-1611400454">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path
+        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+        class="shape-fill"></path>
+    </svg>
+  </div>
+  </div>
+  <section id="about" class="about">
+    <h2 class="title">About</h2>
+    <div class="content">
+      <div class="aboutlt">
+        <img src="img/img2.png" alt="about_img" />
+      </div>
+
+      <div class="aboutrt">
+        <p>
+          I'm <span style="color: crimson">Manglesh Kumar</span><br /><br />I'm
+          working with my team whose name is <a href="../Template/index.html">"Devilback_Team".</a> In this team work
+          all members work in different platform such as development cyber
+          security networking and much more. I also a part of this our team
+          provide help on internet if you have any query please contact us
+          without hesitate our team and I reply as soon as possible. <br /><br />
+        </p>
+        <div id="dwnl"><a href="http:\\">Download CV</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skill" id="skill">
+    <h2 class="title">Skills</h2>
+    <div class="content">
+      <div class="skilllt">
+        <h2>My creative skills & experience</h2><br>
+        <p>learned from
+          myself .. <br><br>Web Development / Designer / Computer progamming. Front-end
+          web developer and some experience about digital marketing and i also
+          working in Youtube channel such as 'Music' & 'Technology' and our team
+          members working on the internet for few year ago.
+        </p>
+      </div>
+      <div class="skillrt">
+        <div class="bar">
+          <div class="info">
+            <span>HTML</span>
+            <span>80%</span>
+          </div>
+          <div class="line html"></div>
+        </div>
+
+        <div class="bar">
+          <div class="info">
+            <span>CSS</span>
+            <span>66%</span>
+          </div>
+          <div class="line css"></div>
+        </div>
+
+        <div class="bar">
+          <div class="info">
+            <span>Javascript</span>
+            <span>40%</span>
+          </div>
+          <div class="line javascript"></div>
+        </div>
+
+        <div class="bar">
+          <div class="info">
+            <span>MySQL</span>
+            <span>60%</span>
+          </div>
+          <div class="line mysql"></div>
+        </div>
+
+        <div class="bar">
+          <div class="info">
+            <span>Python</span>
+            <span>50%</span>
+          </div>
+          <div class="line python"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service" id="service">
+    <h2 class="title">Services</h2>
+    <div class="row">
+      <div class="col">
+        <p> Our team work on cyber security last few year ago and gain a lot of information and experience. Person
+          attack some system after that avoid it </p>
+      </div>
+      <div class="col">
+        <p> Our team work different programming language such as Javascript, C++, HTML, Python, Java, MySQL and much
+          more. </p>
+      </div>
+      <div class="col">
+        <p> We provide genuine content and best quality product in your own mother tongue language. If you want it I am
+          sure it's very useful for you. </p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="title">Contact Us</h2>
+    <div class="conrow">
+      <div class="concol1">
+        <h2>Get in touch</h2><br>
+        <p>My Friends it's not a real address it just mention as a random; So please don't search it
+          on internet, waste of time 😉 !</p>
+        <div>Name : John Andrew</div>
+        <div>Address : Marconi Street London 2225465</div>
+        <div>Phone : +62 9535XXXXX</div>
+      </div>
+
+      <div class="concol2">
+        <div>
+          <form action="https://www.webcrew.com/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." autocomplete="off"
+              onchange="changetext()">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." autocomplete="off"
+              onchange="changetext()">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="India">India</option>
+              <option value="Australia">Canada</option>
+              <option value="USA">USA</option>
+            </select>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+  </section>
+  <footer>
+    <div> webcrew.com &copy; 2021 All right reserved. </div>
+  </footer>
+  <script src="./css/index.js"></script>
+</body>
+
+</html>
